@@ -8,6 +8,48 @@
     <title>Sign up</title>
   </head>
   <body>
-    <h1>Hi</h1>
+    <div>
+      <img src="images/odin-lined.png" alt="Odin" />
+      <h1>Odin</h1>
+      <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div>
+      <div class="description">
+        <p>
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <form action="./index.html" method="post" id="form">
+        <h2>Let's do this!</h2>
+        <div class="group">
+          <label for="f-name">First name</label>
+          <input type="text" id="f-name" name="f-name" />
+        </div>
+        <div class="group">
+          <label for="l-name">Last name</label>
+          <input type="text" id="l-name" name="l-name" />
+        </div>
+        <div class="group">
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="mail" />
+        </div>
+        <div class="group">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div class="group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div class="group">
+          <label for="password-check">Confirm password</label>
+          <input type="password" id="password-check" name="password-check" />
+        </div>
+      </form>
+      <button type="submit" form="form">Create Account</button>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
   </body>
 </html>
