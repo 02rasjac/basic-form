@@ -73,10 +73,6 @@ body {
   padding: 2rem;
 }
 
-form {
-  background-color: whitesmoke;
-}
-
 .description {
   font-weight: bold;
   font-size: 1.2rem;
@@ -84,4 +80,20 @@ form {
 
 .description p:last-child {
   margin-bottom: 0;
+}
+
+form {
+  background-color: whitesmoke;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 1rem;
+}
+
+label {
+  display: block;
 }
