@@ -76,3 +76,12 @@ body {
 form {
   background-color: whitesmoke;
 }
+
+.description {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.description p:last-child {
+  margin-bottom: 0;
+}
