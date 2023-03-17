@@ -13,3 +13,25 @@
 h1 {
   font-family: 'Norse bold', sans-serif;
 }
+
+body {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title * {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.title img {
+  height: 5rem;
+}
