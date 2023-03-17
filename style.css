@@ -58,3 +58,21 @@ body {
 .title img {
   height: 5rem;
 }
+
+/*
+=====================
+----- Right side ----
+=====================
+*/
+
+#right {
+  align-self: center;
+}
+
+#right > * {
+  padding: 2rem;
+}
+
+form {
+  background-color: whitesmoke;
+}
