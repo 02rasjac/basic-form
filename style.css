@@ -116,7 +116,7 @@ input {
   border: 1px solid #e5e7eb;
   border-radius: 5px;
   padding: 0.5em;
-  transition: all 0.2s ease-out;
+  transition: border, box-shadow 0.2s ease-out;
 }
 
 /*
