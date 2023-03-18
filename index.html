@@ -29,7 +29,7 @@
         <h2>Let's do this!</h2>
         <div class="form-group">
           <div class="group">
-            <label for="f-name">First name</label>
+            <label for="f-name" class="req">First name</label>
             <input type="text" id="f-name" name="f-name" pattern="^[a-zA-Z]+$" required placeholder="Odin" />
           </div>
           <div class="group">
@@ -37,7 +37,7 @@
             <input type="text" id="l-name" name="l-name" pattern="^[a-zA-Z]+$" placeholder="God" />
           </div>
           <div class="group">
-            <label for="mail">Email</label>
+            <label for="mail" class="req">Email</label>
             <input type="email" id="mail" name="mail" required placeholder="Odin@gmail.god" />
           </div>
           <div class="group">
@@ -45,12 +45,12 @@
             <input type="tel" id="phone" name="phone" pattern="[0-9]+$" maxlength="10" minlength="10" placeholder="1234567890" />
           </div>
           <div class="group">
-            <label for="password">Password</label>
+            <label for="password" class="req">Password</label>
             <input type="password" id="password" class="error" name="password" required minlength="8" />
             <p class="error-message"><span aria-hidden="true">*</span> Passwords do not match</p>
           </div>
           <div class="group">
-            <label for="password-check">Confirm password</label>
+            <label for="password-check" class="req">Confirm password</label>
             <input type="password" id="password-check" class="error" name="password-check" required />
           </div>
         </div>
