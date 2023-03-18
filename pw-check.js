@@ -5,5 +5,12 @@ pw1.addEventListener('input', checkMatch);
 pw2.addEventListener('input', checkMatch);
 
 function checkMatch() {
-  pw2.setCustomValidity(pw1.value !== pw2.value ? 'Password does not match' : '');
+  if (pw2.value === '') return;
+  if (pw1.value !== pw2.value) {
+    pw2.setCustomValidity('Password does not match');
+    pw2.classList.add('error');
+  } else {
+    pw2.setCustomValidity('');
+    pw2.classList.remove('error');
+  }
 }
