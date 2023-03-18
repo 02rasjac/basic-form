@@ -143,8 +143,8 @@ The class `error` can be put on an input-element to show it has an error.
 If the imediate sibling has a class `error-message`, that element will be
 displayed, otherwise it is hidden.
 */
-input.error,
-input:invalid {
+input.error:not(:placeholder-shown),
+input:invalid:not(:placeholder-shown) {
   border-color: rgb(189, 0, 0);
 }
 
