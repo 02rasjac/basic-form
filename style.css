@@ -149,14 +149,14 @@ input:invalid:not(:placeholder-shown) {
 }
 
 input + .error-message {
-  display: none;
-}
-
-input.error + .error-message {
-  display: block;
+  visibility: hidden;
   color: rgb(189, 0, 0);
   font-size: 0.8rem;
   margin: 0;
+}
+
+input.error + .error-message {
+  visibility: visible;
 }
 
 input:focus,
